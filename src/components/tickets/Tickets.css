@@ -1,0 +1,67 @@
+.tickets {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.ticket {
+    background-color: rgb(219, 186, 250);
+    border: 3px solid rgb(59, 59, 192);
+    padding: 0.7rem;
+    margin: 0.5rem;
+}
+
+.emergencyButton {
+    background-color: rgb(255, 167, 53);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: outset 3px rgb(134, 15, 15);
+    padding: 5px;
+}
+
+.emergencyButton:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.showAllButton {
+    background-color: rgb(134, 174, 248);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: outset 3px rgb(15, 37, 134);
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.showAllButton:hover {
+    background-color: rgb(3, 34, 119);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.createTicket {
+    background-color: rgb(185, 248, 134);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: outset 3px rgb(43, 161, 14);
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.createTicket:hover {
+    background-color: rgb(22, 109, 5);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.submitTicket {
+    background-color: rgb(174, 134, 248);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: outset 3px rgb(70, 14, 161);
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.submitTicket:hover {
+    background-color: rgb(62, 5, 109);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
