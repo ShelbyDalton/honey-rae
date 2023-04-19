@@ -11,6 +11,16 @@
     margin: 0.5rem;
 }
 
+.TicketSearch {
+    margin: 7px;
+    padding: 4px;
+}
+
+.SearchField {
+    background-color: rgb(160, 248, 219);
+    border: 3px inset rgb(3, 241, 162);
+}
+
 .emergencyButton {
     background-color: rgb(255, 167, 53);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -64,4 +74,29 @@
     background-color: rgb(62, 5, 109);
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.wholeTicket {
+    border: 3px outset rgb(252, 129, 150);
+    margin-top: 15px;
+    padding: 5px;
+    background-color: pink;
+}
+
+/* .ticket__finish {
+    margin: auto;
+} */
+
+.ticket__delete {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px dotted rgb(252, 129, 150);
+    padding: 10px;
+    margin: 10px;
 }

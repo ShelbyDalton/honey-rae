@@ -2,6 +2,8 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import "./Login.css"
 
+// Register function (also provided) which will add user to users, trouble is that it does not add
+// a newly registered employee to the employees data in database, must manually add to employees. 
 export const Register = (props) => {
     const [customer, setCustomer] = useState({
         email: "",

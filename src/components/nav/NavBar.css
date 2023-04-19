@@ -2,6 +2,10 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
+    border: 3px outset purple;
+    background-color: rgb(235, 214, 255);
+    font-weight: 700;
+    padding: 4px;
 }
 
 .navbar__item {
